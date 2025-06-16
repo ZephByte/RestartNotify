@@ -8,6 +8,7 @@ class RestartNotify : ModInitializer {
         LOGGER.info("Restart Notify mod initializing...")
 
         ConfigManager.loadConfig()
+        ModCommands.register()
 
         LOGGER.info("Restart Notify mod initialized.")
     }
